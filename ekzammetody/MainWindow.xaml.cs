@@ -32,9 +32,6 @@ namespace ekzammetody
             if (Regex.IsMatch(textBox.Text, pattern))
                 MessageBox.Show("Формат верный");
             else MessageBox.Show("Формат неверный");
-            string pattern1 = "Rival";
-            // commit check
-            string commit = "github";
         }
     }
 }
